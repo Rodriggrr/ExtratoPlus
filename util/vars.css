@@ -1,0 +1,16 @@
+:root {
+    --header-primary-color: #594878;
+    --header-secondary-color: #3f7564;
+    --header-text-color: #ddd;
+    --header-background-color: #f9f9f9;
+    --header-border-color: #ddd;
+    --header-secondary-border-color: #8d77b6;
+
+    --primary-color: #7449d0;
+    --secondary-color: #3f7564;
+    --text-color: #333;
+    --background-color: #30273f;
+    --border-color: #ddd;
+
+    --item-primary-color: #2ac191;
+}
