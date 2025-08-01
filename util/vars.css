@@ -8,9 +8,14 @@
 
     --primary-color: #7449d0;
     --secondary-color: #3f7564;
-    --text-color: #333;
-    --background-color: #30273f;
+    --button-color: #af7ab18f;
+    --button-hover-color: #8d77b6;
+    --text-color: #ffffff;
+    --background-color: linear-gradient(135deg, #695076 0%, #594878 100%);
     --border-color: #ddd;
 
-    --item-primary-color: #2ac191;
+    --item-primary-color: #af7ab18f;
+    
+    --particle-color: #000000;
+    --particle-opacity: 0.5;
 }

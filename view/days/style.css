@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(135deg, #1f0036, #3f004f);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+}
+
+.item {
+    width: 180px !important;
+    height: 180px !important;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    gap: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.container h1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    margin: 0;
+}
+
+.container img {
+    height: 50px;
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.4));
+}
