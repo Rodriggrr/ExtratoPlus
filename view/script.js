@@ -83,7 +83,7 @@ function decideRedirecionamento(pixPorAno, debitoPorAno) {
       if (diasUnicos.length === 1) {
         window.location.href = "/view/day";
       } else if (diasUnicos.length > 1) {
-        window.location.href = "/view/days";
+        window.location.href = "/view/days/index.html?month=" + encodeURIComponent(mes);
       } else {
         // Sem dias encontrados — fallback
         window.location.href = "/view/month";
